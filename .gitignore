@@ -1,0 +1,56 @@
+## Скрываем всё, что генерирует Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.tasks
+*.vsconfig
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Артефакты сборки
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.iobj
+*.ipdb
+*.tlog
+*.log
+*.idb
+*.intermediate.manifest
+*.lastbuildstate
+*.VC.db
+*.opendb
+
+## Папки вывода
+third_party/
+packages/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM64/
+ARM/
+build/
+out/
+bin/
+obj/
+ipch/
+.vs/
+
+## Другие временные файлы
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.vsp
+*.psess
+*.cache
+*.bak
+*.tmp
